@@ -53,11 +53,11 @@
 
 /* Anim */
 
-.header-nav__menu-bt.clicked::before {
+.header-nav__menu-bt.clicked:before {
   transform: rotate3d(0, 0, 1, 45deg);
   -webkit-transform: rotate3d(0, 0, 1, 45deg);
 }
-.header-nav__menu-bt.clicked::after {
+.header-nav__menu-bt.clicked:after {
   transform: rotate3d(0, 0, 1, -45deg);
   -webkit-transform: rotate3d(0, 0, 1, -45deg);
 }
