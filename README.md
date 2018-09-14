@@ -7,7 +7,7 @@
 Installation:
 
 ```
-yarn add mob-menu
+yarn add react-mob-menu
 ```
 
 ## Example
@@ -15,7 +15,7 @@ yarn add mob-menu
 ```js
 import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom'
-import MobMenu from './mob-menu';
+import MobMenu from 'react-mob-menu';
 
 class App extends Component {
   render() {
