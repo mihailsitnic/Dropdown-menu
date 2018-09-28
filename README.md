@@ -3,7 +3,7 @@
 <img src="http://positronbohemia.com/img/menu.svg" width="100" alt="React Mob Menu">
 
 **Note:**
-- You can see the work of the MobMenu component with a screen width of <= 760px.
+- You can see the work on the MobMenu component with a screen width of <= 760px.
 - Styles and media queries can be changed in a file node_modules/react-mob-menu/lib/index.css
 
 ## Installation
