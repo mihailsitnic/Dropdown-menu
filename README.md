@@ -6,9 +6,8 @@
 - You can see the work of the MobMenu component with a screen width of <= 760px.
 - Styles and media queries can be changed in a file node_modules/react-mob-menu/lib/index.css
 
-## Usage
+## Installation
 
-Installation:
 yarn
 ```
 yarn add react-mob-menu
