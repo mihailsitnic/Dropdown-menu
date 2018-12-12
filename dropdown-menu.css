@@ -1,14 +1,6 @@
 /* Dropdown-menu */
 
 .header-nav__menu-bt {
-  display: none;
-}
-
-.header-nav__menu-bt {
-  transition:  margin-top .3s ease;
-}
-
-.header-nav__menu-bt{
   position: relative;
   width: 30px;
   height: 24px;
@@ -16,7 +8,9 @@
   display: none;
   cursor: pointer;
   transition: margin-top .3s ease;
+  display: none;
 }
+
 .header-nav__menu-bt:before,
 .header-nav__menu-bt:after {
   position: absolute;
@@ -28,6 +22,7 @@
   transform-origin: 50% 50%;
   transition: transform 0.25s;
 }
+
 .header-nav__menu-bt div {
   position: absolute;
   left: 0;
@@ -37,15 +32,18 @@
   overflow: hidden;
   transition: opacity 0.25s;
 }
+
 .header-nav__menu-bt:before,
 .header-nav__menu-bt:after,
 .header-nav__menu-bt div {
   background: #444;
 }
+
 .header-nav__menu-bt:before {
   transform: translate3d(0, -10px, 0);
   -webkit-transform: translate3d(0, -10px, 0);
 }
+
 .header-nav__menu-bt:after {
   transform: translate3d(0, 10px, 0);
   -webkit-transform: translate3d(0, 10px, 0);
@@ -57,10 +55,12 @@
   transform: rotate3d(0, 0, 1, 45deg);
   -webkit-transform: rotate3d(0, 0, 1, 45deg);
 }
+
 .header-nav__menu-bt.clicked:after {
   transform: rotate3d(0, 0, 1, -45deg);
   -webkit-transform: rotate3d(0, 0, 1, -45deg);
 }
+
 .header-nav__menu-bt.clicked div {
   opacity: 0;
 }
