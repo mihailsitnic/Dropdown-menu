@@ -5,10 +5,8 @@
   width: 30px;
   height: 24px;
   float: right;
-  display: none;
   cursor: pointer;
   transition: margin-top .3s ease;
-  display: none;
 }
 
 .header-nav__menu-bt:before,
